@@ -59,3 +59,18 @@ print(now.second)
 print(now.month)
 8
 ```
+
+### Load Date/Time
+```
+ch_date = datetime.fromisoformat("1986-04-26 01:23:40:000+04:00")
+```
+
+### Substract Date/Time
+```
+now = datetime.now()
+now2 = datetime.now()
+a = now2 - now
+print(a)
+0:00:18.645351
+```
+Note that the returned value is a timedelta format, which only has day, seconds, and microseconds.
