@@ -11,6 +11,17 @@ network_string = '192.168.0.0/28'
 network_address = ipaddress.ip_network(network_string)
 ```
 
+To validate an IP address
+```
+
+
+try:
+    ip = ipaddress.ip_address(ip_string)
+    print('%s is a correct IP%s address.' % (ip, ip.version))
+except ValueError:
+    print('address/netmask is invalid: %s' % ip_string)
+```
+
 ### print network mask in dot format
 ```
 network = ipaddress.IPv4Network('192.168.0.0/29')
