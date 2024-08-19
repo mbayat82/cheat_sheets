@@ -7,15 +7,16 @@
 `25G` move to line number 25  
 
 `/` search forward  
-`?` search backwards
+`?` search backwards  
 `n` next search  
+`N` previous search  
 
-`dd` delete line
-`d$`  delete until end of line
+`dd` delete line  
+`d$`  delete until end of line  
 `dG` delete until end of file  
 `%d` delete all  
 
-`yy` copy line
+`yy` copy line  
 `y$` copy until end of line  
 
 `x` delete character  
@@ -25,7 +26,8 @@
 
 ## Commands
 `d` delete  
-`w` word  
+`w` word / move forward one word  
+`b` move backwards one word    
 `0` beggining of line  
 `$` end of line  
 `gg` beggining of file  
@@ -34,7 +36,7 @@
 `p` paste after current line  
 `P` paste on current line  
 `:q!` exit without saving  
-`:qW` save and exit  
+`:qw` save and exit  
 
 ## Combos
 → `dw` delete word  
