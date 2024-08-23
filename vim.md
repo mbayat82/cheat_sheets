@@ -6,6 +6,8 @@
 `$` end of line  
 `25G` move to line number 25  
 
+`^v` multi-line
+
 `/` search forward  
 `?` search backwards  
 `n` next search  
